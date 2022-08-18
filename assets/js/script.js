@@ -18,10 +18,39 @@ var finalScore = document.querySelector("#score");
 var userInitial =document.querySelector("#user-name");
 
 var submitBtn =document.querySelector("#submit_btn");
-var highScorePage =document.querySelector("#highscore_page");
-var scoreRecord =document.querySelector("#score_record");
+var highScorePage =document.querySelector("#score_page");
+var scoreRecord =document.querySelector("#high_score");
 var scoreCheck =document.querySelector("#score_check");
-var finish =document.querySelector("#finish");
+var finish =document.querySelector("#fin");
 
 var backBtn =document.querySelector("#back_btn");
 var clearBtn=document.querySelector("#clear_btn");
+
+var testQuestions = [
+    {
+        question: "Questions 1 : What does HTML stand for?",
+        choices: ["a. HTML", "b. HTMLL", "c. The HyperText Markup Language", "d. HTMLLL"],
+        answer: "c"
+    },
+    {
+        question: "Questions 2 : What does CSS stand for?",
+        choices: ["a. CSS", "b. CSSS", "c. Cascading Style Sheets", "d. CCSS"],
+        answer: "c"
+    },
+    {
+        question: "Questions 3 : What does JS stand for?",
+        choices: ["a. JS", "b. JavaScript", "c. JJS", "d. JJJSSS()"],
+        answer: "b"
+    },
+    {
+        question: "Questions 4 : What is 1 + 1?",
+        choices: ["a. 0 ", "b. 1 ", "c. 2", "d. 3"],
+        answer: "c"
+    },
+    {
+        question: "Questions 5 : What is 2 - 1?",
+        choices: ["a. 0", "b. 1", "c. 2", "d. 3"],
+        answer: "b"
+    },
+   
+];
