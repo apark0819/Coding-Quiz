@@ -12,6 +12,9 @@
     <header>
         <div>
             <h1>The Code Quiz</h1>
+            <div>
+                <button class="button" id="score_check">View Highscores</button>
+            </div>
             <h2 id="timer">Time left: <span id="seconds">60</span></h2>
         </div>
     </header>
@@ -29,8 +32,8 @@
 
         <!--Questions Section-->
         <section class = 'questions_page' id = 'questions_page'>
-            <div id = 'questions'>
-                <h2 id = 'ask_question'>Ask the question</h2>
+            <div>
+                <h2 id = 'questions'>Ask the question</h2>
                 <ul>
                     <li><button class ="choices button" id="answer_btn1" value="a">Answer1</button></li>
                     <li><button class ="choices button" id="answer_btn2" value="b">Answer2</button></li>
@@ -51,7 +54,7 @@
                     <h2 id = 'fin'>Finished!</h2>
                     <p id = 'score'>Your final score is: </p>
                     <p>Enter your name...
-                        <input id = 'initials'>
+                        <input id = 'user-name'>
                         <button class = 'button' id = 'submit_btn'>Submit</button>
                     </p>
                 </div>
@@ -61,7 +64,7 @@
         <section class = 'score_page' id = 'score_page'>
             <div>
                 <h2>High Scores</h2>
-                <div id = 'scores'><p>Your score: </p></div>
+                <div id = 'high_score'><p>Your score: </p></div>
                 <div>
                     <button class = 'button' id = 'back_btn'>Back</button>
                     <button class = 'button' id = 'clear_btn'>Clear Scores</button>
