@@ -18,10 +18,34 @@
 
     <main>
         <!--Intro Section-->
+        <section class = 'intro_page' id = 'intro_page'>
         <div id = 'introduction'>
             <h1>Welcome to the Coding Quiz.</h1>
             <p1 id = 'instructions'>In this coding quiz you are given five questions. Every incorrect answer will reduce your timer by 10 seconds!</p1>
             <br>
             <button class="button" id="start_button">Start Quiz</button>
         </div>
+        </section>
+
+        <!--Questions Section-->
+        <section class = 'questions_page' id = 'questions_page'>
+            <div id = 'questions'>
+                <h2 id = 'ask_question'>Ask the question</h2>
+                <ul>
+                    <li><button class ="choices button" id="answer_btn1" value="a">Answer1</button></li>
+                    <li><button class ="choices button" id="answer_btn2" value="b">Answer2</button></li>
+                    <li><button class ="choices button" id="answer_btn3" value="c">Answer3</button></li>
+                    <li><button class ="choices button" id="answer_btn4" value="d">Answer4</button></li>
+                </ul>
+            </div>
+
+            <div id = 'question_checker'>
+                <p>Correct!</p>
+                <p>Wrong :/</p>
+            </div>
+        </section>
+
+        <!--Results Section-->
     </main>
+
+
