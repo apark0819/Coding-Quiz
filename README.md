@@ -13,6 +13,7 @@ Deployment Link: https://apark0819.github.io/Coding-Quiz/
 
 ## Example
 ![PG1](assets\output\test.gif)
+
 ## License
 MIT
 
