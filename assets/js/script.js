@@ -3,8 +3,8 @@ var welcome = document.querySelector("#introduction");
 var startBtn = document.querySelector("#start_button");
 var introPage =document.querySelector("#intro_page");
 
-var questionPage = document.querySelector("#questions_page");
-var askQuestion = document.querySelector("#questions");
+var questionPage = document.querySelector("#question_page");
+var askQuestion = document.querySelector("#ask_question");
 
 var reactButtons = document.querySelectorAll(".choices");
 var answerBtn1 = document.querySelector("#answer_btn1");
@@ -92,13 +92,13 @@ function startQuiz () {
   
 }
 
-function showQuestion (a) {
-    askQuestion.textContent = testQuestions[a].question;
-    answerBtn1.textContent = testQuestions[a].choices[0];
-    answerBtn2.textContent = testQuestions[a].choices[1];
-    answerBtn3.textContent = testQuestions[a].choices[2];
-    answerBtn4.textContent = testQuestions[a].choices[3];
-    questionNumber = a;
+function showQuestion (n) {
+    askQuestion.textContent = testQuestions[n].question;
+    answerBtn1.textContent = testQuestions[n].choices[0];
+    answerBtn2.textContent = testQuestions[n].choices[1];
+    answerBtn3.textContent = testQuestions[n].choices[2];
+    answerBtn4.textContent = testQuestions[n].choices[3];
+    questionNumber = n;
 }
 
 function checkAnswer(event) {

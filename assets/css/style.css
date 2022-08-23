@@ -1,0 +1,15 @@
+:root {
+    background-color: aliceblue;
+}
+
+header, main {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: hsl(206, 17%, 28%);
+  }
+  
+/*display only the intro page and hide the rest sections*/
+.question_page, .score_page, .results_page, #question_checker {
+    display:none;
+}
